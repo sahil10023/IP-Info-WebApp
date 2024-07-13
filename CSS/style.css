@@ -1,0 +1,70 @@
+.Container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
+form{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: fit-content;
+    height: max-content;
+}
+
+.contAll{
+    backdrop-filter: blur(11px);
+    text-align: center;
+    position: relative;
+    top: 0px;
+    left: 9px;
+    width: 35%;
+    align-items: center;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 19px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: url(https://www.shutterstock.com/shutterstock/videos/1062117766/thumb/1.jpg?ip=x480) no-repeat;
+    background-size: cover;
+}
+button {
+    border-radius: 6px;
+    display: block;
+    padding: 5px 12px;
+}
+.form-label{
+    color: #fff;
+}
+
+/* for result html */
+
+.contRes{
+    width: max-content;
+    color: #fff;
+    padding: 0px 55px;
+    height: 44%;
+    text-align: left;
+    color: #fff;
+}
+
+.result > input{
+    text-align: center;
+    margin-left: 10px;
+    border-radius: 15px;
+    border: 1px solid cadetblue;
+}
+.result >label{
+    width: 100px;
+}
+
+/* responsiveness 956px */
